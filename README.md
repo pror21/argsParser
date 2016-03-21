@@ -8,9 +8,11 @@ You can parse all basic data types like int, boolean, char, double, long and str
 
 
 
-Usage:
 
-1) Create a FlaggedOption object and set all the necessary parameter values.
+### Usage:
+
+
+#### 1) Create a FlaggedOption object and set all the necessary parameter values.
 
 
 
@@ -44,7 +46,7 @@ All of these parameters are required.
 
 
 
-2) Create an ArgsParser object, register all FlaggedOptions and parse user arguments.
+#### 2) Create an ArgsParser object, register all FlaggedOptions and parse user arguments.
 
 
 e.g:
@@ -58,11 +60,10 @@ e.g:
 	
 	
 	
-3) Get any parsed value by using ArgsParser.getXXX(), where XXX is the proper parser.
+#### 3) Get any parsed value by using ArgsParser.getXXX(), where XXX is the proper parser.
 
 
 e.g:
 
-    argParser.getInt("f1")
 
-        
+    argParser.getInt("f1")
